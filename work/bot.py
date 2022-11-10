@@ -12,7 +12,7 @@ dp=Dispatcher(bot=bot)
 async def start_messege(message:types.Message):
     chat_id = message.chat.id
     await bot.send_message(chat_id, 'Здарова \n'
-                           'Я скачаю для ьебя видео с ютуба')
+                           'Я скачаю для тебя видео с ютуба')
 
 @dp.message_handler()
 async def text_message(message:types.Message):
